@@ -1,0 +1,76 @@
+body{
+    width: 1920px;
+     /* background-image: url(img/bgc.png); */
+}
+
+section-1{
+    position: absolute;
+    width: 1920px;
+    height: 960px;  
+    background-image: url(img/main-screen__bgc.png);
+}
+
+.logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    top: 40px;
+    background-image: url(img/logo.png);
+}
+
+nav{
+    position: absolute;
+    width: 745px;
+    height: 24px;
+    left: 642px;
+    top: 48px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    
+    /* identical to box height, or 24px */
+    text-align: center;  
+    color: #FFFFFF;      
+}
+
+#nav-1{
+    position: absolute;
+    width: 61px;
+    left: 342px;
+
+    
+}
+
+#nav-2{
+    position: absolute;
+    width: 48px;
+    left: 459px;
+}
+
+#nav-3{
+    position: absolute;
+    width: 90px;
+    left: 563px;
+}
+
+#nav-4{
+    position: absolute;
+    width: 117px;
+    left: 709px;
+}
+
+#nav-5{
+    position: absolute;
+    width: 75px;
+    left: 882px;
+}
+
+#nav-6{
+    position: absolute;
+    width: 74px;
+    left: 1313px;
+}
