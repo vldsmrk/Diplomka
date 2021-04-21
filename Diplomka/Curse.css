@@ -1,13 +1,14 @@
-body{
+#main{
+    position: relative;
     width: 1920px;
      /* background-image: url(img/bgc.png); */
 }
 
 section-1{
     position: absolute;
-    width: 1920px;
+    width: 1920px; 
     height: 960px;  
-    background-image: url(img/main-screen__bgc.png);
+    background: url(img/main-screen__bgc.png);
 }
 
 .logo{
@@ -26,7 +27,7 @@ nav{
     left: 642px;
     top: 48px;
     
-    font-family: Roboto;
+    font-family: monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -34,43 +35,120 @@ nav{
     
     /* identical to box height, or 24px */
     text-align: center;  
-    color: #FFFFFF;      
-}
-
-#nav-1{
-    position: absolute;
-    width: 61px;
-    left: 342px;
-
+    color: #FFFFFF;     
     
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#nav-2{
-    position: absolute;
-    width: 48px;
-    left: 459px;
+.navbI{
+
+    width: auto;
 }
 
-#nav-3{
-    position: absolute;
-    width: 90px;
-    left: 563px;
+#bttn-profile{
+/* main-screen__button */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+
+position: absolute;
+width: 183px;
+height: 44px;
+left: 1657px;
+top: 38px;
+
+/* grad2 */
+background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+border-radius: 50px;
 }
 
-#nav-4{
-    position: absolute;
-    width: 117px;
-    left: 709px;
+#tex-bttn-profile{
+    position: static;
+    width: 150px;
+    height: 24px;
+    left: 30px;
+    padding-top:5px;
+    
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    
+    /* identical to box height, or 24px */
+    text-align: center;
+    
+    /* white */
+    color: #FFFFFF;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-#nav-5{
+#hi-text{
     position: absolute;
-    width: 75px;
-    left: 882px;
+    width: 920px;
+    height: 180px;
+    left: 312px;
+    top: 270px;
+    
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 140%;   
+    
+    color: white;
 }
 
-#nav-6{
+.timer-frame{
     position: absolute;
-    width: 74px;
-    left: 1313px;
+    height: 112px;
+    left: 312px;
+    top: 500px;
+    width: 498px ;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+.timer{
+    width: 102px;
+    color: white;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+
+    color:white;
+}
+
+.timer-text{
+    /* margin-top: auto; */
+    justify-content: center;
+    width: 100%;
+    display: flex;
 }
