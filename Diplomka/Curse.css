@@ -1,14 +1,10 @@
 #main {
+  position: relative;
   width: 1920px;
-  height: 6600px;
-  background-image: url(img/bgc.png); 
-  z-index: -4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-image: url(img/bgc.png); */
 }
 
-#first-screen {
+section-1 {
   position: absolute;
   width: 1920px;
   height: 960px;
@@ -212,7 +208,7 @@ nav {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;   
- /* opacity: 0.4; */
+  opacity: 0.4;
   color: white;
 }
 
@@ -248,91 +244,6 @@ nav {
     position: absolute;
     width: 714px;
     height: 67px;
-    left: 894px;
-  /*  opacity: 0.4; */ 
+    left: 894px;  
     color: white;  
-}
-
-.income-members{
-  width: auto;
-}
-
-.income-check{
-  position: absolute; 
-  top: 0px;
-  left: 220px;
-}
-
-.income-range{
-  position: absolute;
-  left: 150px;
-}
-
-.about-curse{
-  position: absolute;
-  width: 1301px;
-  height: 542px;
-  
-  top: 1160px;
-}
-
-.about-curse-topic-text{
-  position: relative;
-  width: 502px;
-  height: 67px;
-  left: 660px;
-  top: 40px;
-
-  font-family: monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 46px;
-  line-height: 140%;  
-  color: white  ;
-}
-
-.about-curse-description-text{
-  position: relative;
-  width: 636px;
-  top: 60px;
-  left: 660px;
-
-  font-family: monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 160%;  
-  color: white;
-}
-
-.about-curse-img{
-  position: absolute;
-}
-
-#square{
-
-}
-
-#computer{
-  position: absolute;
-  left: 40px;
-  top: 25px;
-}
-
-.facilities{
-  position: absolute;
-  width: 1296px;
-  height: 549px;
-  top: 1800px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.facilities-block{
- 
-  height: 362px;
-  width: 416px;
-  margin-top: 187px;
 }
