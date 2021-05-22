@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Curse.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -15,12 +16,11 @@
 
 
         <nav>
-            <div class="navbI" id="nav-1">Главная</div>
-            <div class="navbI" id="nav-2">Курсы</div>
-            <div class="navbI" id="nav-3">Расписание</div>
-            <div class="navbI" id="nav-4">Преподаватели</div>
-            <div class="navbI" id="nav-5">Рассылка</div>
-            <div class="navbI" id="nav-6">Контакты</div>
+            <div class="navbI" ><a class="nav-anim" href="#main" >Главная</a></div>
+            <div class="navbI" ><a class="nav-anim" href="#curse" >Курсы</a> </div>
+            <div class="navbI" ><a href="#teachers" class="nav-anim">Преподаватели</a></div>
+            <div class="navbI" ><a class="nav-anim" href="#contc" >Рассылка</a></div>
+            <div class="navbI"><a class="nav-anim" href="#contc" >Контакты</a></div>
         </nav>
 
 
@@ -30,13 +30,15 @@
             </div>
         </button>
 
+        <div class="form_reg"></div>
 
         <div id="hi-text">
             Первый курс по компьютерной сборке
         </div>
 
         <div class="timer-frame">
-            <div class="timer">
+            <!-- время остановилось потому что мы в матрице!!! -->
+             <div class="timer">
                 <div class="num">34</div>
                 <div class="timer-text"s>Days</div>
             </div>
@@ -54,7 +56,7 @@
             <div class="timer">
                 <div class="num">45</div>
                 <div class="timer-text">Seconds</div>
-            </div>
+            </div> 
         </div>    
 
         <div class="footer">
@@ -83,6 +85,7 @@
     </div>
 
     <div class="about-curse">
+        <a href="" name="main"></a>
         <div class="about-curse-img">
             <img src="img/square.png" alt="" srcset="" id="square">
             <img src="img/computer.png" alt="" srcset="" id="computer">
@@ -93,6 +96,7 @@
     </div>
 
     <div class="facilities">
+        <a href="" name="curse"></a>
         <div class="facilities-block">
             <div id="icons"><img src="img/icon-1.png" alt="" srcset=""></div>
             <div class="facilities-block-text">Только практические навыки в работе</div>
@@ -125,18 +129,54 @@
     </div>
 
     <div class="teachers">
+
+        <a href="" name="teachers"></a>
+
         <div class="teachers-block">
-            <div class="teachers-pic"><img src="img/povezlo.png" alt="" srcset=""></div>
+            <div class="teachers-pic"><img src="img/povezlo.png" height="200px" width="200px" alt="" srcset=""></div>
             <div class="teachers-name">Дмитрий Иванов</div>
             <div class="teachers-description">Специалист по видеокартам</div>
         </div>
 
-        <div class="teachers-block"></div>
+        <div class="teachers-block">
+            <div class="teachers-pic"><img src="img/povezlo.png" height="200px" width="200px" alt="" srcset=""></div>
+            <div class="teachers-name">Дмитрий Иванов</div>
+            <div class="teachers-description">Специалист по видеокартам</div>
+        </div>
         
-        <div class="teachers-block"></div>
+        <div class="teachers-block">
+            <div class="teachers-pic"><img src="img/povezlo.png" height="200px" width="200px" alt="" srcset=""></div>
+            <div class="teachers-name">Дмитрий Иванов</div>
+            <div class="teachers-description">Специалист по видеокартам</div>
+        </div>
     </div>
-</div>
 
+    <footer>
+        <a href="" name="contc"></a>
+
+        <div class="footer-text-title">Статьи каждую неделю</div>
+
+        <div class="footer-text-descrip">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</div>
+
+        <div class="footer-sent-email">
+            <input class="email" type="text">
+            <div class="btn-email">
+                <div class="btn-email-text">
+                    Подписаться
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-soc-icons">
+            <div class="sque"><img src="img/footer__soc-icons-facebook.png"></div>
+            <div class="sque"><img src="img/footer__soc-icons-instagram.png"></div>
+            <div class="sque"><img src="img/footer__soc-icons-youtube.png"></div>
+            <div class="sque"><img src="img/footer__soc-icons-vk.png"></div>
+        </div>
+    </footer>
+</div>
+    
     <script src="Curse.js"></script>
+
 </body>
 </html>

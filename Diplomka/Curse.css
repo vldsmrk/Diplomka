@@ -1,11 +1,16 @@
 #main {
   width: 1920px;
-  height: 6600px;
+  height: 4100px;
   background-image: url(img/bgc.png); 
   z-index: -4;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+body{
+  padding: 0;
+  margin: 0;  
 }
 
 #first-screen {
@@ -44,6 +49,17 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav-anim{
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.nav-anim:hover{
+  color: yellow;
+  transition: 1s;
 }
 
 .navbI {
@@ -123,6 +139,13 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
+
+#rocket{
+  width: 498px;
+  height: 112px;
+  color: #df5950;
+}
+
 .timer {
   width: 102px;
   color: white;
@@ -434,17 +457,17 @@ nav {
 }
 
 .teachers-block{
-  /*
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
   width: 400px;
   height: 379px;
 }
 
 .teachers-pic{
-  
+  margin: none;
   height: 200px;
   width: 200px;
 }
@@ -477,3 +500,101 @@ nav {
   color: white;
   opacity: 0.8;
 }
+
+footer{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  justify-content: space-between; 
+  width: 547px;
+  height: 343px;
+  top: 3700px;
+}
+
+.footer-text-title{
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  /* or 67px */
+  
+  text-align: center;
+  color: white;  
+}
+
+.footer-text-descrip{
+  width: 410px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  text-align: center;
+  color: white;  
+  opacity: 0.5;
+}
+
+.footer-sent-email{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 492px;
+  height: 44px;  
+}
+
+.email{
+  height: 44px;
+  width: 353px;
+  color: gray;
+  opacity: 0.25;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.btn-email{
+  width: 160px;
+  height: 44px;
+  z-index: 2;
+  
+  
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  text-align: center;  
+  color: white;
+
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+
+.btn-email-text{
+  margin-top: 10px;
+}
+
+.footer-soc-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 290px;
+  height: 50px;  
+}
+
+.sque{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;  
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);  
+  border-radius: 100%;
+}
+
